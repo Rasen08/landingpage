@@ -3,14 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/styles.css">
     <title>Lúbeli</title>
+    <!-- css vendor -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css main -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <!-- header -->
+    <header class="header-intro">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-xxl menu">
+            <div class="container-fluid">
+              <a class="navbar-brand d-block d-xxl-none" href="#">
+                <img class="logo" src="./assets/img/isologo.png" alt="Logo de Lúbeli Joyería">
+              </a>
+              <ul class="navbar-nav col-xxl-4 d-flex justify-content-between px-0 d-xxl-none">
+                <div class="d-flex icons">
+                  <li class="nav-item">
+                    <a class="nav-link px-0" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-0" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-0" href="#">
+                      <svg class="different-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                      </svg>
+                    </a>
+                  </li>  
+                </div>         
+              </ul>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 col-xxl-4 d-flex justify-content-between px-0">
+                  <li class="nav-item">
+                    <a class="nav-link px-4" aria-current="page" href="#">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#">CATÁLOGO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#">COLECCIONES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4 d-xxl-none" href="#">PROMOCIONES</a>
+                  </li>
+                </ul>
+                <img class="col-xxl-1 ps-4 flecha" src="./assets/img/flecha01.svg" alt="">
+                <a class="d-none d-xxl-block col-xxl-2 px-0 text-center" href="#">
+                  <img class="logo" src="./assets/img/isologo.png" alt="Logo de Lúbeli Joyería">
+                </a>
+                <img class="col-xxl-1 pe-4 flecha" src="./assets/img/flecha02.svg" alt="">
+                <ul class="navbar-nav col-xxl-4 d-xxl-flex d-none justify-content-between px-0">
+                  <li class="nav-item">
+                    <a class="nav-link px-0" href="#">PROMOCIONES</a>
+                  </li>
+                  <div class="d-flex icons">
+                    <li class="nav-item">
+                      <a class="nav-link px-0" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-0" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
+                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                          <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link px-0" href="#">
+                        <svg class="different-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+                        </svg>
+                      </a>
+                    </li>  
+                  </div>         
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+    </header>
+    <!-- end header -->
+    <main>
+      <section class="major container-fluid d-flex justify-content-center row px-0">
+        <article class="hero col-xxl-10 px-0">
+          <article class="hero-text d-flex">
+            <p class="header-text mb-0">HASTA 30% DE DESCUENTO</p>
+            <h1 class="title-text mb-0">ENCUENTRA TU BRILLO</h1>
+            <p class="description-text mb-0">Entre nuestras exclusivas creaciones, elaboradas con los materiales más finos y un cuidado artesanal excepcional.</p>
+            <button class="cta-btn">VER PIEZAS</button>
+          </article>
+        </article>
+      </section>
+      <section class="categories container-fluid">
+        <div class="head-container">
+          <img class="arrow-icon" src="./assets/img/flecha-vertical.svg" alt="">
+          <h2 class="title-tab-active text-center">CATÁLOGO</h2>
+          <h2 class="title-table-inactive text-center">COLECCIONES</h2>
+        </div>
+        <article class="gallery-container">
+          <div class="one">
+            <p>ANILLOS</p>
+          </div>
+          <div class="two">
+            <p>COLLARES</p>
+          </div>
+          <div class="three">
+            <p>PENDIENTES</p>
+          </div>
+          <div class="four">
+            <p>BRAZALETES</p>
+          </div>
+        </article>
+        <div class="slider-nav d-flex justify-content-center">
+          <div class="circle-icons d-flex justify-content-between">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill active" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16">
+              <circle cx="8" cy="8" r="8"/>
+            </svg>  
+          </div>
+        </div>
+      </section>
+      <section class="secondary container-fluid d-flex justify-content-center row px-0">
+        <article class="featured-01 col-xxl-10 px-0">
+          <article class="featured-text-style-02 d-flex text-end">
+            <p class="header-text mb-0">Una propuesta inolvidable</p>
+            <h2 class="title-text mb-0">DISEÑA TU PROPIO ANILLO DE COMPROMISO</h1>
+            <button class="cta-btn">VER PIEZAS</button>
+          </article>
+        </article>
+      </section>
+      <section class="discover container-fluid">
+        <div class="head-container">
+          <img class="arrow-icon" src="./assets/img/flecha-vertical.svg" alt="">
+          <h2 class="title-sections text-start">Descubre hermosas piezas para regalar esta temporada</h2>
+        </div>
+        <article class="gallery-container">
+          <div class="one">
+            <img src="./assets/img/discover-gallery/01-earrings.png" alt="">
+          </div>
+          <div class="two">
+            <img src="./assets/img/discover-gallery/02-ring.png" alt="">
+          </div>
+          <div class="three">
+            <img src="./assets/img/discover-gallery/03-necklace.png" alt="">
+          </div>
+        </article>
+      </section>
+      <section class="secondary container-fluid d-flex justify-content-center row px-0">
+        <article class="featured-02 col-xxl-10 px-0">
+          <article class="featured-text-style-01 d-flex">
+            <p class="header-text mb-0">PRESENTANDO:</p>
+            <h2 class="title-text mb-0">LA COLECCIÓN ORQUÍDEAS</h1>
+            <p class="description-text mb-0">Un homenaje a la belleza de esta delicada flor.</p>
+            <button class="cta-btn">VER PIEZAS</button>
+          </article>
+        </article>
+      </section>
+      <section class="be-part container-fluid">
+        <div class="head-container">
+          <img class="arrow-icon" src="./assets/img/flecha-vertical.svg" alt="">
+          <h2 class="title-sections text-start">Sé parte de algo brillante</h2>
+        </div>
+        <div class="head-container-text">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg>
+          <p>Síguenos en Instagram para ver momentos increíbles. Te invitamos a etiquetarnos en tus fotos con las joyas de Lúbeli. </p>
+        </div>
+        <article class="gallery-container">
+          <div class="one">
+            <img src="./assets/img/be-part-gallery/01.png" alt="">
+          </div>
+          <div class="two">
+            <img src="./assets/img/be-part-gallery/02.png" alt="">
+          </div>
+          <div class="three">
+            <img src="./assets/img/be-part-gallery/03.png" alt="">
+          </div>
+          <div class="four">
+            <img src="./assets/img/be-part-gallery/04.png" alt="">
+          </div>
+          <div class="five">
+            <img src="./assets/img/be-part-gallery/05.png" alt="">
+          </div>
+          <div class="six">
+            <img src="./assets/img/be-part-gallery/06.png" alt="">
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-container container-fluid d-flex justify-content-center row">
+        <article class="footer-info col-xxl-10 col-xl-12 col-lg-12 col-md-12 px-0 d-flex justify-content-between row">
+          <div class="list col-xxl-2 col-xl-3 col-lg-4 col-md-6 px-0">
+            <h3 class="title-footer">Atención al cliente</h3>
+            <ul class="info px-0">
+              <li><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+              </svg><a href="">Chat en línea</a></li>
+              <li><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+              </svg><a href="">1-800-252-2828</a></li>
+              <li><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg><a href="">Correo electrónico</a></li>
+              <li><a href="">Preguntas frecuentes</a></li>
+              <li><a href="">Devoluciones</a></li>
+            </ul>
+          </div>
+          <div class="list col-xxl-2 col-xl-3 col-lg-4 col-md-6 px-0">
+            <h3 class="title-footer">¿Por qué elegirnos?</h3>
+            <ul class="info px-0">
+              <li><a href="">Calidad y valor</a></li>
+              <li><a href="">Reseñas</a></li>
+              <li><a href="">Ubicaciones</a></li>
+              <li><a href="">Envíos seguros</a></li>
+              <li><a href="">Garantía de por vida</a></li>
+            </ul>
+          </div>
+          <div class="suscribe col-xxl-4 col-xl-4 col-lg-4 col-md-12 px-0">
+            <h3 class="title-footer">Únete a Lúbeli</h3>
+            <p class="d-flex align-items-center">Para obtener ofertas y novedades exclusivas:</p>
+            <form action="" id="send-email" class="d-flex justify-content-between">
+              <input type="email" value="Dirección de correo electrónico">
+              <button type="submit">Inscribirse</button>
+            </form>
+            <div class="social-media">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg>
+            </div>
+          </div>
+        </article>
+        <div class="footer-logo col-xxl-12 px-0 row">
+          <div class="col-xxl-5 col-xl-4 col-lg-3 col-md-2 col-sm-1 px-0">
+            <img src="./assets/img/flecha01-footer.svg" alt="">
+          </div>
+          <div class="col-xxl-2 col-xl-4 col-lg-6 col-md-8 col-sm-10 text-center px-0">
+            <img src="./assets/img/isologo.png" alt="">
+          </div>
+          <div class="col-xxl-5 col-xl-4 col-lg-3 col-md-2 col-sm-1 px-0">
+            <img src="./assets/img/flecha02-footer.svg" alt="">
+          </div>
+        </div>
+        <div class="terms-conditions row d-flex justify-content-center px-0">
+          <ul class="d-flex justify-content-between align-items-center col-xxl-4 col-xl-6 col-lg-8 col-md-10 col-sm-12 px-0 mb-0">
+            <li>
+              <a href="">Términos y condiciones</a>
+            </li>
+            <li>
+              <a href="">Política de privacidad</a>
+            </li>
+            <li>
+              <a href="">Política de cookies</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

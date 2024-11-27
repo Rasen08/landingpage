@@ -1,0 +1,27 @@
+// Mixin para estilo común de las cajas de hero y features
+@mixin box-style($width, $color, $bg-image: null) {
+    width: $width;
+    border: 1px solid $color;
+    @if $bg-image != null {
+      background-image: url(#{$bg-image});
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  } 
+
+@function box-height($isHero: false) {
+    @if $isHero {
+      @return 722px;
+    } @else {
+      @return 560px;
+    }
+  }
+
+// Mixin para estilo común de títulos de secciones con flecha
+@mixin arrow-size($font-size, $line-height, $padding-top) {
+  $container-height: $line-height + $padding-top;
+  $svg-max-height: $container-height;
+  max-height: $svg-max-height;
+  height: 100%;
+}

@@ -1,0 +1,53 @@
+//vars
+$mainColor: rgb(121, 123, 124);
+$mainColorG: rgba(121, 123, 124, 0.60);
+$keyColor: rgb(161, 124, 41);
+$white: rgb(250, 250, 250);
+$black: rgb(25, 25, 25);
+$gray: rgb(220, 220, 220);
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+$mainFont: "Inter", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+$secondaryFont: "Archivo Narrow", sans-serif;
+
+p,
+span,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input{
+    font-family: $mainFont;
+}
+
+h1{
+    font-size: 2.75em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.25em;
+}
+
+
+ul,
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (width <= 1670px){
+    .container-fluid{
+        padding: 0px 40px;
+    }
+}

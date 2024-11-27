@@ -1,0 +1,17 @@
+.secondary{
+    background-color: $black;
+    height: fit-content;
+    padding-bottom: 160px;
+    gap: 32px;
+    margin: 0;
+    .featured-01{
+        @include box-style(77.5%, $mainColor, '/assets/img/img_sistema02.png');
+        transition: 1s ease-in;
+        height: box-height(false);
+    }
+    .featured-02{
+        @include box-style(77.5%, $mainColor, '/assets/img/img_sistema03.png');
+        transition: 1s ease-in;
+        height: box-height(false);
+    }
+}

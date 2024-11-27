@@ -1,0 +1,81 @@
+.categories{
+    height: auto;
+    background-color: $white;
+    padding-left: 64px;
+    padding-right: 0px;
+    padding-bottom: 240px;
+    .head-container {
+        .arrow-icon {
+          @include arrow-size(2em, 54px, 160px);
+          width: auto;
+          object-fit: contain;
+        }
+      }
+    .gallery-container{
+      height: 398px;
+      width: 91.4%;
+      margin-bottom: 56px;
+      display: grid;
+      grid-template-columns: repeat(3, 438px) 1fr;
+      grid-gap: 32px;
+      grid-auto-rows: minmax(100px, auto);
+      justify-self: flex-end;
+      overflow-x: hidden;
+      div{
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p{
+          font-size: 1.25em;
+          letter-spacing: 12px;
+          font-weight: 300;
+          color: $mainColor;
+          height: 44px;
+          margin-bottom: 30px;
+        }
+      }
+      .one{
+        grid-column: 1 / 2;
+        border-color: $keyColor;
+        border: 1px solid $keyColor;
+        background-image: url('/assets/img/carrusel/category-01-ring.png');
+        p{
+          color: $keyColor;
+        }
+      }
+      .two{
+        grid-column: 2 / 3;
+        border: 1px solid $mainColor;
+        background-image: url('/assets/img/carrusel/category-02-necklace.png');
+      }
+      .three{
+        grid-column: 3 / 4;
+        border: 1px solid $mainColor;
+        background-image: url('/assets/img/carrusel/category-03-earrings.png');
+      }
+      .four{
+        grid-column: 4 / 5;
+        border-top: 1px solid $mainColor;
+        border-left: 1px solid $mainColor;
+        border-bottom: 1px solid $mainColor;
+        background-image: url('/assets/img/carrusel/category-04-bracelet.png');
+        p{
+          padding-left: 111px;
+        }
+      }
+    }
+    .slider-nav{
+      width: 100%;
+      .circle-icons{
+        width: 120px;
+        svg{
+          width: 6px;
+          fill: $mainColorG;
+        }
+        .active{
+          fill: $keyColor;
+        }
+      }
+    }
+}

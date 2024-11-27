@@ -1,0 +1,98 @@
+footer{
+    background-color: $white;
+    .footer-container{
+        background-color: $white;
+        height: fit-content;
+        padding: 140px 64px;
+        margin: 0;
+        .footer-info{
+            margin: 0;
+            .list{
+                width: 18.06%;
+                padding: 0;
+                height: 252px;
+                .info li{
+                    height: 42px;
+                    display: flex;
+                    align-items: center;
+                    &:hover{
+                        svg{
+                            color: $keyColor;
+                        }
+                        a{
+                            color: $keyColor;
+                        }
+                    }
+                    svg{
+                        width: 18px;
+                        margin-right: 16px;
+                        color: $mainColor;
+                    }
+                    a{
+                        color: $mainColor;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .suscribe{
+                width: 38.5%;
+                margin-bottom: 139px;
+                p{
+                    color: $keyColor;
+                    font-weight: 300;
+                    height: 42px;
+                    margin: 0;
+                }
+                #send-email{
+                    height: 74px;
+                    border-bottom: 1px solid $keyColor;
+                    margin-bottom: 60px;
+                    input{
+                        width: 80%;
+                        border-style: none;
+                        background-color: transparent;
+                        color: $mainColorG;
+                        font-size: 1em;
+                        font-weight: 300;
+                    }
+                    button{
+                        width: 20%;
+                        border-style: none;
+                        background-color: transparent;
+                        color: $keyColor;
+                        font-size: 1em;
+                        font-weight: 500;
+                    }
+                }
+                .social-media{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    svg{
+                        color: $mainColor;
+                        height: 25px;
+                        &:hover{
+                            color: $keyColor;
+                            cursor: pointer;
+                        }
+                    }
+                    .bi-facebook{
+                        height: 27px;
+                    }
+                }
+
+            }
+        }
+        .footer-logo{
+            height: 64px;
+            margin-bottom: 34px;
+        }
+        .terms-conditions{
+            ul li a{
+                color: $mainColor;
+                font-size: 0.875em;
+                height: 42px;
+            }
+        }
+    }
+}

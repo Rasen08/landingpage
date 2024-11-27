@@ -1,0 +1,22 @@
+.major{
+    background-color: $black;
+    height: fit-content;
+    padding-bottom: 160px;
+    gap: 32px;
+    margin: 0;
+    .hero{
+        @include box-style(77.5%, $mainColor, '/assets/img/hero01.png');
+        transition: 1s ease-in;
+        height: box-height(true);
+        &:hover{
+            @include box-style(77.5%, $keyColor, '/assets/img/hero02.png');
+            transition: 1s ease-in;
+        }
+        .hero-text{
+            width: 59%;
+            margin: 182px 0px 0% 10%;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+}
