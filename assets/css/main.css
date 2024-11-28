@@ -216,20 +216,12 @@ a {
   height: 722px;
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(../img/hero01.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: 1s ease-in;
   height: 722px;
 }
 .major .hero:hover {
   width: 77.5%;
   border: 1px solid rgb(161, 124, 41);
-  background-image: url(../img/hero02.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: 1s ease-in;
   background-image: "../img/hero02.png";
   height: 560px;
@@ -330,22 +322,18 @@ a {
   margin: 0;
 }
 .secondary .featured-01 {
+  background-image: "../img/img_sistema02.png";
+  height: 560px;
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(../img/img_sistema02.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: 1s ease-in;
   height: 560px;
 }
 .secondary .featured-02 {
+  background-image: "../img/img_sistema03.png";
+  height: 560;
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(../img/img_sistema03.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: 1s ease-in;
   height: 560px;
 }

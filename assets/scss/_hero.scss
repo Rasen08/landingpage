@@ -7,11 +7,11 @@
     .hero{
         background-image: '../img/hero01.png';
         height: 722px;
-        @include box-style(77.5%, $mainColor, '../img/hero01.png');
+        @include box-style(77.5%, $mainColor);
         transition: 1s ease-in;
         height: box-height(true);
         &:hover{
-            @include box-style(77.5%, $keyColor, '../img/hero02.png');
+            @include box-style(77.5%, $keyColor);
             transition: 1s ease-in;
             background-image: '../img/hero02.png';
             height: 560px;
