@@ -5,11 +5,11 @@
     gap: 32px;
     margin: 0;
     .hero{
-        @include box-style(77.5%, $mainColor, 'assets/img/hero01.png');
+        @include box-style(77.5%, $mainColor, './assets/img/hero01.png');
         transition: 1s ease-in;
         height: box-height(true);
         &:hover{
-            @include box-style(77.5%, $keyColor, 'assets/img/hero02.png');
+            @include box-style(77.5%, $keyColor, './assets/img/hero02.png');
             transition: 1s ease-in;
         }
         .hero-text{
