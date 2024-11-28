@@ -39,7 +39,7 @@
         grid-column: 1 / 2;
         border-color: $keyColor;
         border: 1px solid $keyColor;
-        background-image: url('/assets/img/carrusel/category-01-ring.png');
+        background-image: url('assets/img/carrusel/category-01-ring.png');
         p{
           color: $keyColor;
         }
@@ -47,19 +47,19 @@
       .two{
         grid-column: 2 / 3;
         border: 1px solid $mainColor;
-        background-image: url('/assets/img/carrusel/category-02-necklace.png');
+        background-image: url('assets/img/carrusel/category-02-necklace.png');
       }
       .three{
         grid-column: 3 / 4;
         border: 1px solid $mainColor;
-        background-image: url('/assets/img/carrusel/category-03-earrings.png');
+        background-image: url('assets/img/carrusel/category-03-earrings.png');
       }
       .four{
         grid-column: 4 / 5;
         border-top: 1px solid $mainColor;
         border-left: 1px solid $mainColor;
         border-bottom: 1px solid $mainColor;
-        background-image: url('/assets/img/carrusel/category-04-bracelet.png');
+        background-image: url('assets/img/carrusel/category-04-bracelet.png');
         p{
           padding-left: 111px;
         }

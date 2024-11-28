@@ -14,11 +14,11 @@
 <li class="has-line-data" data-line-start="14" data-line-end="16">El proyecto fue desarrollado en <strong>Visual Studio Code.</strong></li>
 </ul>
 <h2 class="code-line" data-line-start=16 data-line-end=17 ><a id="Acceso_al_proyecto_16"></a>Acceso al proyecto</h2>
-<p class="has-line-data" data-line-start="18" data-line-end="19">Puedes acceder al proyecto en línea a través del siguiente enlace: <a href="https://breakdance.github.io/breakdance/">Lúbeli - Landing Page</a></p>
+<p class="has-line-data" data-line-start="18" data-line-end="19">Puedes acceder al proyecto en línea a través del siguiente enlace: <a href="https://rasen08.github.io/landingpage/">Lúbeli - Landing Page</a></p>
 <h2 class="code-line" data-line-start=20 data-line-end=21 ><a id="Clonar_el_Repositorio_20"></a>Clonar el Repositorio</h2>
 <p class="has-line-data" data-line-start="22" data-line-end="23">Si deseas clonar y ejecutar el proyecto en tu máquina local, sigue estos pasos:</p>
 <p class="has-line-data" data-line-start="24" data-line-end="25"><strong>1. Clona el repositorio:</strong></p>
-<pre><code class="has-line-data" data-line-start="26" data-line-end="28" class="language-sh">git <span class="hljs-built_in">clone</span> https://github.com/Rasen08/landingpage
+<pre><code class="has-line-data" data-line-start="26" data-line-end="28" class="language-sh">git <span class="hljs-built_in">clone</span> https://github.com/Rasen08/cadiz-laura--cv.git
 </code></pre>
 <p class="has-line-data" data-line-start="28" data-line-end="29"><strong>2. Instala las dependencias necesarias:</strong></p>
 <pre><code class="has-line-data" data-line-start="30" data-line-end="32" class="language-sh">npm install
