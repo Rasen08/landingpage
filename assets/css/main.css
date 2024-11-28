@@ -212,9 +212,11 @@ a {
   margin: 0;
 }
 .major .hero {
+  background-image: "../img/hero01.png";
+  height: 722px;
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(/assets/img/hero01.png);
+  background-image: url(../img/hero01.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -224,11 +226,13 @@ a {
 .major .hero:hover {
   width: 77.5%;
   border: 1px solid rgb(161, 124, 41);
-  background-image: url(/assets/img/hero02.png);
+  background-image: url(../img/hero02.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   transition: 1s ease-in;
+  background-image: "../img/hero02.png";
+  height: 560px;
 }
 .major .hero .hero-text {
   width: 59%;
@@ -279,7 +283,7 @@ a {
   grid-column: 1/2;
   border-color: rgb(161, 124, 41);
   border: 1px solid rgb(161, 124, 41);
-  background-image: url("/assets/img/carrusel/category-01-ring.png");
+  background-image: url("..assets/img/carrusel/category-01-ring.png");
 }
 .categories .gallery-container .one p {
   color: rgb(161, 124, 41);
@@ -287,19 +291,19 @@ a {
 .categories .gallery-container .two {
   grid-column: 2/3;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url("/assets/img/carrusel/category-02-necklace.png");
+  background-image: url("../assets/img/carrusel/category-02-necklace.png");
 }
 .categories .gallery-container .three {
   grid-column: 3/4;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url("/assets/img/carrusel/category-03-earrings.png");
+  background-image: url(".../assets/img/carrusel/category-03-earrings.png");
 }
 .categories .gallery-container .four {
   grid-column: 4/5;
   border-top: 1px solid rgb(121, 123, 124);
   border-left: 1px solid rgb(121, 123, 124);
   border-bottom: 1px solid rgb(121, 123, 124);
-  background-image: url("/assets/img/carrusel/category-04-bracelet.png");
+  background-image: url("..//../assets/img/carrusel/category-04-bracelet.png");
 }
 .categories .gallery-container .four p {
   padding-left: 111px;
@@ -328,7 +332,7 @@ a {
 .secondary .featured-01 {
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(/assets/img/img_sistema02.png);
+  background-image: url(../img/img_sistema02.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -338,7 +342,7 @@ a {
 .secondary .featured-02 {
   width: 77.5%;
   border: 1px solid rgb(121, 123, 124);
-  background-image: url(/assets/img/img_sistema03.png);
+  background-image: url(../img/img_sistema03.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
