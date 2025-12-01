@@ -5,7 +5,7 @@
     gap: 32px;
     margin: 0;
     .hero{
-        background-image: '../img/hero01.png';
+        background-image: '../../assets/img/hero01.png';
         height: 722px;
         @include box-style(77.5%, $mainColor);
         transition: 1s ease-in;
